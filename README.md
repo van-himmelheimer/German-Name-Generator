@@ -8,7 +8,7 @@ This script is several years old, I just uploaded it to have something on my git
 
 ## Usage:
 From the command line:
-```python
+```bash
 # this yields a single name (randomly male or female)
 python german-name-generator.py
 
