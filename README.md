@@ -5,7 +5,8 @@ A (very) simple name generator for German names.
 It uses lists of the most common German family names and of popular male/female first names which I got somewhere from Wikipedia, I think. (Warning: the first names may be rather old fashioned.)
 
 ## Usage:
-`
+From the command line:
+```python
 # this yields a single name (randomly male or female)
 python german-name-generator.py
 
@@ -15,4 +16,10 @@ python german-name-generator.py any 10
 #this yields 5 (3) male (female) names
 python german-name-generator.py m 5
 python german-name-generator.py w 3
+```
+
+From a python script:
+`
+import german-name-generator
+
 `
